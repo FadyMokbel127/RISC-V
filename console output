@@ -1,56 +1,26 @@
 
 Started : "Simulate Behavioral Model".
 
-INFO:HDLCompiler:1845 - Analyzing Verilog file "/home/ise/Downloads/RISC-V Proccesor Dr Ahmed Edition/RISC-V Proccesor Dr Ahmed Edition/RISC-V-Processor/Processor/Processor_tb.v" into library work
-INFO:ProjectMgmt - Include file found: '/home/ise/Downloads/RISC-V Proccesor Dr Ahmed Edition/RISC-V Proccesor Dr Ahmed Edition/RISC-V-Processor/Processor/PROCESSOR.v' in file "/home/ise/Downloads/RISC-V Proccesor Dr Ahmed Edition/RISC-V Proccesor Dr Ahmed Edition/RISC-V-Processor/Processor/Processor_tb.v" line 1
-INFO:ProjectMgmt - Include file found: '/home/ise/Downloads/RISC-V Proccesor Dr Ahmed Edition/RISC-V Proccesor Dr Ahmed Edition/RISC-V-Processor/Processor/CONTROL.v' in file "/home/ise/Downloads/RISC-V Proccesor Dr Ahmed Edition/RISC-V Proccesor Dr Ahmed Edition/RISC-V-Processor/Processor/PROCESSOR.v" line 1
-INFO:ProjectMgmt - Include file found: '/home/ise/Downloads/RISC-V Proccesor Dr Ahmed Edition/RISC-V Proccesor Dr Ahmed Edition/RISC-V-Processor/Processor/DATAPATH.v' in file "/home/ise/Downloads/RISC-V Proccesor Dr Ahmed Edition/RISC-V Proccesor Dr Ahmed Edition/RISC-V-Processor/Processor/PROCESSOR.v" line 2
-ERROR:HDLCompiler:281 - "/home/ise/Downloads/RISC-V Proccesor Dr Ahmed Edition/RISC-V Proccesor Dr Ahmed Edition/RISC-V-Processor/Processor/DATAPATH.v" Line 1: Cannot open include file "REG_FILE.v".
-INFO:ProjectMgmt - Include file found: '/home/ise/Downloads/RISC-V Proccesor Dr Ahmed Edition/RISC-V Proccesor Dr Ahmed Edition/RISC-V-Processor/Processor/ALU.v' in file "/home/ise/Downloads/RISC-V Proccesor Dr Ahmed Edition/RISC-V Proccesor Dr Ahmed Edition/RISC-V-Processor/Processor/DATAPATH.v" line 2
-INFO:ProjectMgmt - Include file found: '/home/ise/Downloads/RISC-V Proccesor Dr Ahmed Edition/RISC-V Proccesor Dr Ahmed Edition/RISC-V-Processor/Processor/IFU.v' in file "/home/ise/Downloads/RISC-V Proccesor Dr Ahmed Edition/RISC-V Proccesor Dr Ahmed Edition/RISC-V-Processor/Processor/PROCESSOR.v" line 3
-INFO:ProjectMgmt - Include file found: '/home/ise/Downloads/RISC-V Proccesor Dr Ahmed Edition/RISC-V Proccesor Dr Ahmed Edition/RISC-V-Processor/Processor/INST_MEM.v' in file "/home/ise/Downloads/RISC-V Proccesor Dr Ahmed Edition/RISC-V Proccesor Dr Ahmed Edition/RISC-V-Processor/Processor/IFU.v" line 6
-ERROR:ProjectMgmt - 1 error(s) found while parsing design hierarchy.
-WARNING:ProjectMgmt - Duplicate Design Unit 'PROCESSOR' found in library 'work'
-WARNING:ProjectMgmt -    "/home/ise/Downloads/RISC-V/PROCESSOR.v" line 5 (active)
-WARNING:ProjectMgmt -    "/home/ise/Downloads/RISC-V Proccesor Dr Ahmed Edition/RISC-V Proccesor Dr Ahmed Edition/RISC-V-Processor/Processor/Processor_tb.v" line 5 
-WARNING:ProjectMgmt - Duplicate Design Unit 'stimulus' found in library 'work'
-WARNING:ProjectMgmt -    "/home/ise/Downloads/RISC-V/Processor_tb.v" line 3 (active)
-WARNING:ProjectMgmt -    "/home/ise/Downloads/RISC-V Proccesor Dr Ahmed Edition/RISC-V Proccesor Dr Ahmed Edition/RISC-V-Processor/Processor/Processor_tb.v" line 3 
-WARNING:ProjectMgmt - Duplicate Design Unit 'INST_MEM' found in library 'work'
-WARNING:ProjectMgmt -    "/home/ise/Downloads/RISC-V/INST_MEM.v" line 6 (active)
-WARNING:ProjectMgmt -    "/home/ise/Downloads/RISC-V Proccesor Dr Ahmed Edition/RISC-V Proccesor Dr Ahmed Edition/RISC-V-Processor/Processor/Processor_tb.v" line 6 
-WARNING:ProjectMgmt - Duplicate Design Unit 'IFU' found in library 'work'
-WARNING:ProjectMgmt -    "/home/ise/Downloads/RISC-V/IFU.v" line 8 (active)
-WARNING:ProjectMgmt -    "/home/ise/Downloads/RISC-V Proccesor Dr Ahmed Edition/RISC-V Proccesor Dr Ahmed Edition/RISC-V-Processor/Processor/Processor_tb.v" line 8 
-WARNING:ProjectMgmt - Duplicate Design Unit 'ALU' found in library 'work'
-WARNING:ProjectMgmt -    "/home/ise/Downloads/RISC-V/ALU.v" line 21 (active)
-WARNING:ProjectMgmt -    "/home/ise/Downloads/RISC-V Proccesor Dr Ahmed Edition/RISC-V Proccesor Dr Ahmed Edition/RISC-V-Processor/Processor/Processor_tb.v" line 21 
-WARNING:ProjectMgmt - Duplicate Design Unit 'DATAPATH' found in library 'work'
-WARNING:ProjectMgmt -    "/home/ise/Downloads/RISC-V/DATAPATH.v" line 4 (active)
-WARNING:ProjectMgmt -    "/home/ise/Downloads/RISC-V Proccesor Dr Ahmed Edition/RISC-V Proccesor Dr Ahmed Edition/RISC-V-Processor/Processor/Processor_tb.v" line 4 
-WARNING:ProjectMgmt - Duplicate Design Unit 'CONTROL' found in library 'work'
-WARNING:ProjectMgmt -    "/home/ise/Downloads/RISC-V/CONTROL.v" line 1 (active)
-WARNING:ProjectMgmt -    "/home/ise/Downloads/RISC-V Proccesor Dr Ahmed Edition/RISC-V Proccesor Dr Ahmed Edition/RISC-V-Processor/Processor/Processor_tb.v" line 1 
 Determining files marked for global include in the design...
 Running fuse...
-Command Line: fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /home/ise/RISC_V/testbench_isim_beh.exe -prj /home/ise/RISC_V/testbench_beh.prj work.testbench work.glbl {}
-Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /home/ise/RISC_V/testbench_isim_beh.exe -prj /home/ise/RISC_V/testbench_beh.prj work.testbench work.glbl 
+Command Line: fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /home/ise/RISC-V1/testbench_isim_beh.exe -prj /home/ise/RISC-V1/testbench_beh.prj work.testbench work.glbl {}
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /home/ise/RISC-V1/testbench_isim_beh.exe -prj /home/ise/RISC-V1/testbench_beh.prj work.testbench work.glbl 
 ISim P.20131013 (signature 0xfbc00daa)
 Number of CPUs detected in this system: 1
 Turning on mult-threading, number of parallel sub-compilation jobs: 0 
 Determining compilation order of HDL files
-Analyzing Verilog file "/home/ise/RISC_V/../Downloads/RISC-V/testbench.v" into library work
+Analyzing Verilog file "/home/ise/RISC-V1/../Downloads/RISC-V/testbench.v" into library work
+ERROR:HDLCompiler:1654 - "/home/ise/RISC-V1/../Downloads/RISC-V/testbench.v" Line 8: Instantiating <uut> from unknown module <PROCESSOR>
+ERROR:HDLCompiler:69 - "/home/ise/RISC-V1/../Downloads/RISC-V/testbench.v" Line 24: <uut.DATAPATH.reg_file_module.reg_memory[6]> is not declared.
+ERROR:HDLCompiler:69 - "/home/ise/RISC-V1/../Downloads/RISC-V/testbench.v" Line 25: <uut.DATAPATH.reg_file_module.reg_memory[7]> is not declared.
+ERROR:HDLCompiler:69 - "/home/ise/RISC-V1/../Downloads/RISC-V/testbench.v" Line 26: <uut.DATAPATH.reg_file_module.reg_memory[5]> is not declared.
+ERROR:HDLCompiler:69 - "/home/ise/RISC-V1/../Downloads/RISC-V/testbench.v" Line 27: <uut.DATAPATH.reg_file_module.reg_memory[28]> is not declared.
+ERROR:HDLCompiler:69 - "/home/ise/RISC-V1/../Downloads/RISC-V/testbench.v" Line 28: <uut.DATAPATH.reg_file_module.reg_memory[29]> is not declared.
+ERROR:HDLCompiler:69 - "/home/ise/RISC-V1/../Downloads/RISC-V/testbench.v" Line 29: <uut.DATAPATH.reg_file_module.reg_memory[30]> is not declared.
+ERROR:HDLCompiler:69 - "/home/ise/RISC-V1/../Downloads/RISC-V/testbench.v" Line 30: <uut.DATAPATH.reg_file_module.reg_memory[31]> is not declared.
+ERROR:HDLCompiler:69 - "/home/ise/RISC-V1/../Downloads/RISC-V/testbench.v" Line 31: <uut.DATAPATH.reg_file_module.reg_memory[17]> is not declared.
+ERROR:Simulator:778 - Static elaboration of top level Verilog design unit(s) in library work failed
 Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
-ERROR:HDLCompiler:1654 - "/home/ise/RISC_V/../Downloads/RISC-V/testbench.v" Line 8: Instantiating <uut> from unknown module <PROCESSOR>
-ERROR:HDLCompiler:69 - "/home/ise/RISC_V/../Downloads/RISC-V/testbench.v" Line 24: <uut.DATAPATH.reg_file_module.reg_memory[6]> is not declared.
-ERROR:HDLCompiler:69 - "/home/ise/RISC_V/../Downloads/RISC-V/testbench.v" Line 25: <uut.DATAPATH.reg_file_module.reg_memory[7]> is not declared.
-ERROR:HDLCompiler:69 - "/home/ise/RISC_V/../Downloads/RISC-V/testbench.v" Line 26: <uut.DATAPATH.reg_file_module.reg_memory[5]> is not declared.
-ERROR:HDLCompiler:69 - "/home/ise/RISC_V/../Downloads/RISC-V/testbench.v" Line 27: <uut.DATAPATH.reg_file_module.reg_memory[28]> is not declared.
-ERROR:HDLCompiler:69 - "/home/ise/RISC_V/../Downloads/RISC-V/testbench.v" Line 28: <uut.DATAPATH.reg_file_module.reg_memory[29]> is not declared.
-ERROR:HDLCompiler:69 - "/home/ise/RISC_V/../Downloads/RISC-V/testbench.v" Line 29: <uut.DATAPATH.reg_file_module.reg_memory[30]> is not declared.
-ERROR:HDLCompiler:69 - "/home/ise/RISC_V/../Downloads/RISC-V/testbench.v" Line 30: <uut.DATAPATH.reg_file_module.reg_memory[31]> is not declared.
-ERROR:HDLCompiler:69 - "/home/ise/RISC_V/../Downloads/RISC-V/testbench.v" Line 31: <uut.DATAPATH.reg_file_module.reg_memory[17]> is not declared.
-ERROR:Simulator:778 - Static elaboration of top level Verilog design unit(s) in library work failed
 
 Process "Simulate Behavioral Model" failed
