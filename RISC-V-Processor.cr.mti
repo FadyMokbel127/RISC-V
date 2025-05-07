@@ -1,0 +1,73 @@
+{E:/must/RISC V/project/RISC-V-Processor-main/RISC-V-Processor-main/Processor/DATAPATH.v} {1 {vlog -work work -vopt -stats=none {E:/must/RISC V/project/RISC-V-Processor-main/RISC-V-Processor-main/Processor/DATAPATH.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module REG_FILE
+-- Compiling module ALU
+-- Compiling module DATAPATH
+
+Top level modules:
+	DATAPATH
+
+} {} {}} {E:/must/RISC V/project/RISC-V-Processor-main/RISC-V-Processor-main/Processor/IFU.v} {1 {vlog -work work -vopt -stats=none {E:/must/RISC V/project/RISC-V-Processor-main/RISC-V-Processor-main/Processor/IFU.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module INST_MEM
+-- Compiling module IFU
+
+Top level modules:
+	IFU
+
+} {} {}} {E:/must/RISC V/project/RISC-V-Processor-main/RISC-V-Processor-main/Processor/INST_MEM.v} {1 {vlog -work work -vopt -stats=none {E:/must/RISC V/project/RISC-V-Processor-main/RISC-V-Processor-main/Processor/INST_MEM.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module INST_MEM
+
+Top level modules:
+	INST_MEM
+
+} {} {}} {E:/must/RISC V/project/RISC-V-Processor-main/RISC-V-Processor-main/Processor/PROCESSOR.v} {1 {vlog -work work -vopt -stats=none {E:/must/RISC V/project/RISC-V-Processor-main/RISC-V-Processor-main/Processor/PROCESSOR.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module CONTROL
+-- Compiling module REG_FILE
+-- Compiling module ALU
+-- Compiling module DATAPATH
+-- Compiling module INST_MEM
+-- Compiling module IFU
+-- Compiling module PROCESSOR
+
+Top level modules:
+	PROCESSOR
+
+} {} {}} {E:/must/RISC V/project/RISC-V-Processor-main/RISC-V-Processor-main/Processor/CONTROL.v} {1 {vlog -work work -vopt -stats=none {E:/must/RISC V/project/RISC-V-Processor-main/RISC-V-Processor-main/Processor/CONTROL.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module CONTROL
+
+Top level modules:
+	CONTROL
+
+} {} {}} {E:/must/RISC V/project/RISC-V-Processor-main/RISC-V-Processor-main/Processor/Processor_tb.v} {1 {vlog -work work -vopt -stats=none {E:/must/RISC V/project/RISC-V-Processor-main/RISC-V-Processor-main/Processor/Processor_tb.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module CONTROL
+-- Compiling module REG_FILE
+-- Compiling module ALU
+-- Compiling module DATAPATH
+-- Compiling module INST_MEM
+-- Compiling module IFU
+-- Compiling module PROCESSOR
+-- Compiling module stimulus
+
+Top level modules:
+	stimulus
+
+} {} {}} {E:/must/RISC V/project/RISC-V-Processor-main/RISC-V-Processor-main/Processor/REG_FILE.v} {1 {vlog -work work -vopt -stats=none {E:/must/RISC V/project/RISC-V-Processor-main/RISC-V-Processor-main/Processor/REG_FILE.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module REG_FILE
+
+Top level modules:
+	REG_FILE
+
+} {} {}} {E:/must/RISC V/project/RISC-V-Processor-main/RISC-V-Processor-main/Processor/ALU.v} {1 {vlog -work work -vopt -stats=none {E:/must/RISC V/project/RISC-V-Processor-main/RISC-V-Processor-main/Processor/ALU.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}}
